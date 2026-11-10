@@ -1,4 +1,6 @@
-# Revisão independente — 10/11/2026
+# Revisão independente da versão inicial — 10/11/2026
+
+Registro histórico. A revisão do redesign está em [REVISAO-REDESIGN.md](REVISAO-REDESIGN.md).
 
 Revisão realizada por agente independente, sem alteração do código. Escopo: leitura de `src/main.js` e `src/domain.js`, persistência, importação, cronômetro, recuperação de atraso e inspeção visual de `evidence/desktop.png`, `evidence/mobile.png` e `evidence/conducao.png`.
 
