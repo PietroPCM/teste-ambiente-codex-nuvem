@@ -1,0 +1,3 @@
+# Compasso
+Facilitadores solo precisam ajustar workshops que começam atrasados sem eliminar atividades essenciais. Entrada: roteiro com duração, mínimo e proteção por bloco. Ação central: simular atraso e revisar cortes proporcionais à folga. Resultado: agenda viável, ou déficit explicitamente informado, seguida de condução com cronômetro. Retorno: preparar e conduzir cada sessão. Receita hipotética: licença de biblioteca de roteiros e colaboração futura; validar antes de ampliar.
+Entrega local, de usuário único, sem serviços externos. Não promete garantir qualidade pedagógica: mínimos são decisões do facilitador. Decisão autônoma autorizada pelo usuário. Pesquisa e contrapontos em docs/DECISAO.md.

@@ -1,0 +1,23 @@
+
+> compasso@1.0.0 test
+> node --test tests/domain.test.js
+
+✔ agenda sanitizada é independente e descarta campos não suportados de imports (2.33259ms)
+✔ validação rejeita estrutura, versão, horário e textos inválidos (0.410196ms)
+✔ validação rejeita durações não inteiras, limites e mínimos maiores (0.29089ms)
+✔ validação limita quantidade, identificadores, total e virada do dia (0.377829ms)
+✔ cronograma é cumulativo, suporta agenda vazia e meia-noite exata (0.302457ms)
+✔ recuperação proporcional arredonda por maior resto e preserva entrada (0.443526ms)
+✔ empate de arredondamento é determinístico pela ordem da agenda (0.18961ms)
+✔ blocos protegidos e anteriores ao ponto escolhido nunca são cortados (0.170392ms)
+✔ sem flexibilidade, zero atraso e fim da agenda retornam resultados honestos (0.266464ms)
+✔ valida atraso e índice antes de recalcular (0.339272ms)
+✔ recuperação repetida não ultrapassa mínimos e conserva minutos em muitos cenários (2.991665ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 74.627125
