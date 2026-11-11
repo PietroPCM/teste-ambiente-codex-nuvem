@@ -2,17 +2,17 @@
 > compasso@1.0.0 test
 > node --test tests/domain.test.js
 
-✔ agenda sanitizada é independente e descarta campos não suportados de imports (6.312243ms)
-✔ validação rejeita estrutura, versão, horário e textos inválidos (0.635035ms)
-✔ validação rejeita durações não inteiras, limites e mínimos maiores (0.619343ms)
-✔ validação limita quantidade, identificadores, total e virada do dia (0.799838ms)
-✔ cronograma é cumulativo, suporta agenda vazia e meia-noite exata (0.583958ms)
-✔ recuperação proporcional arredonda por maior resto e preserva entrada (0.923993ms)
-✔ empate de arredondamento é determinístico pela ordem da agenda (0.799227ms)
-✔ blocos protegidos e anteriores ao ponto escolhido nunca são cortados (0.356623ms)
-✔ sem flexibilidade, zero atraso e fim da agenda retornam resultados honestos (0.538451ms)
-✔ valida atraso e índice antes de recalcular (0.628733ms)
-✔ recuperação repetida não ultrapassa mínimos e conserva minutos em muitos cenários (7.581201ms)
+✔ agenda sanitizada é independente e descarta campos não suportados de imports (3.589797ms)
+✔ validação rejeita estrutura, versão, horário e textos inválidos (0.606333ms)
+✔ validação rejeita durações não inteiras, limites e mínimos maiores (0.294559ms)
+✔ validação limita quantidade, identificadores, total e virada do dia (0.561226ms)
+✔ cronograma é cumulativo, suporta agenda vazia e meia-noite exata (0.528632ms)
+✔ recuperação proporcional arredonda por maior resto e preserva entrada (0.831341ms)
+✔ empate de arredondamento é determinístico pela ordem da agenda (0.3014ms)
+✔ blocos protegidos e anteriores ao ponto escolhido nunca são cortados (0.35481ms)
+✔ sem flexibilidade, zero atraso e fim da agenda retornam resultados honestos (0.363053ms)
+✔ valida atraso e índice antes de recalcular (0.495897ms)
+✔ recuperação repetida não ultrapassa mínimos e conserva minutos em muitos cenários (6.93569ms)
 ℹ tests 11
 ℹ suites 0
 ℹ pass 11
@@ -20,4 +20,4 @@
 ℹ cancelled 0
 ℹ skipped 0
 ℹ todo 0
-ℹ duration_ms 129.094578
+ℹ duration_ms 122.942936

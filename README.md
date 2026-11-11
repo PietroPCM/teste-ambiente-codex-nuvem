@@ -29,7 +29,7 @@ Use sempre o mesmo endereço, porta e navegador para recuperar os dados locais: 
 1. Abra o exemplo, identificado como **Exemplo editável**. Use **Editar** na atividade ou selecione um trecho do mapa. Expanda **Orientações** para consultar as notas.
 2. Alterne **Flexível / Protegido** diretamente na lista para proteger os blocos. Reordene pelas setas ou crie atividades.
 3. Informe dez minutos de atraso. Confira os cortes propostos e clique em **Aplicar ajuste**. O início avança dez minutos; o fim previsto é preservado.
-4. Clique em **Iniciar encontro** para abrir a condução dedicada. Alterne entre **Preparar roteiro** e **Conduzir encontro** pela navegação. Pause, retome e avance manualmente de bloco. O cronômetro real não segue automaticamente o horário nominal da agenda.
+4. Clique em **Iniciar encontro** para abrir a condução dedicada. Alterne entre **Preparar roteiro** e **Conduzir encontro** pela navegação. Pause, retome e avance manualmente de bloco. O cronômetro real não segue automaticamente o horário nominal da agenda. **Modo foco** oculta os controles de preparação; saia pelo botão ou por Escape.
 5. Exporte **Backup** antes de fechar ou transportar. **Importar** valida e restaura o JSON. **Imprimir** abre a impressão do navegador, que permite salvar PDF.
 
 O exemplo só se torna um roteiro persistido quando você altera algo ou inicia a condução. A aplicação conserva um roteiro por navegador/origem. **Novo roteiro** pede confirmação; **Desfazer última alteração** restaura uma edição, exclusão, reordenação, importação ou ajuste enquanto a página estiver aberta. O histórico de desfazer não sobrevive à recarga. Limpar dados do navegador remove o roteiro. Use uma aba por vez: esta versão não sincroniza edições concorrentes.
@@ -63,6 +63,8 @@ O teste usa `/usr/bin/chromium` quando disponível; em outras máquinas usa o Ch
 
 Pronto para uso local de uma pessoa, com persistência no navegador e portabilidade por JSON. Sem autenticação, nuvem ou integração externa. Não há credenciais pendentes. O build pode futuramente ser servido em uma hospedagem estática HTTPS; nenhum deploy foi realizado. Antes de uma oferta pública: validar com facilitadores, realizar auditoria de acessibilidade, testar Safari/Firefox e dispositivos reais, definir política de dados e suporte. Colaboração, biblioteca de múltiplos roteiros, sincronização, contas e cobrança ainda exigiriam implementação.
 
+- [Marca própria](docs/MARCA.md)
+- [Refinamento de componentes](docs/ACABAMENTO.md)
 - [Redesign e skills utilizadas](docs/REDESIGN.md)
 - [Decisão e fontes da pesquisa](docs/DECISAO.md)
 - [Verificações e limitações](docs/TESTES.md)

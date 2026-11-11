@@ -1,0 +1,3 @@
+import { createElement, ArrowRight, ArrowUp, ArrowDown, Check, CircleHelp, Clock3, Download, FileText, ListChecks, LockKeyhole, Pencil, Play, Plus, Minus, Pause, X, Focus, ShieldCheck, ChevronRight } from 'lucide';
+const symbols={arrow:ArrowRight,up:ArrowUp,down:ArrowDown,check:Check,help:CircleHelp,clock:Clock3,download:Download,notes:FileText,list:ListChecks,lock:LockKeyhole,edit:Pencil,play:Play,plus:Plus,minus:Minus,pause:Pause,close:X,focus:Focus,shield:ShieldCheck,chevron:ChevronRight};
+export function icon(name){return createElement(symbols[name]||ArrowRight,{'aria-hidden':'true','focusable':'false','stroke-width':1.8,width:20,height:20}).outerHTML;}

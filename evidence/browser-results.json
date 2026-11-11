@@ -1,10 +1,12 @@
 {
-  "date": "2026-11-10T19:46:47.536Z",
+  "date": "2026-11-11T14:08:07.220Z",
   "passed": [
     "Inicialização sem credenciais e exemplo identificado",
+    "Marca própria carregada como imagem local",
     "Auditoria axe sem violações na preparação",
     "Mapa editável por teclado e proteção direta reversível",
     "Alternar modos não inicia cronômetro sem ação explícita",
+    "Atalhos de atraso e stepper atualizam a proposta",
     "Recuperação aplicada preserva horário final e proteção; persiste após reload",
     "Atrasos inviáveis e inválidos não alteram o roteiro",
     "Criação com validação de mínimo",
@@ -13,6 +15,7 @@
     "Estado vazio e condução desativada",
     "Importação rejeita JSON inválido e restaura backup",
     "Condução retoma após reload, pausa e avança",
+    "Modo foco remove distrações e Escape restaura navegação",
     "Condução dedicada, retorno ao roteiro bloqueado para edição e axe sem violações",
     "Dados preservados após reinício do servidor",
     "Viewport móvel sem overflow e diálogo fecha por teclado",

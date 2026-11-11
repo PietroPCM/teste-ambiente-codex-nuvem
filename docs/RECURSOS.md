@@ -1,8 +1,10 @@
 # Recursos
 
-Interface e marca desenhadas para este projeto; sem fotografias, imagens geradas, logotipos de clientes ou dados corporativos. O roteiro inicial é sintético e identificado como exemplo.
+Interface desenvolvida para este projeto; símbolo de marca gerado especificamente com ImageGen, documentado em MARCA.md. Sem fotografias, logotipos de clientes ou dados corporativos. O roteiro inicial é sintético e identificado como exemplo.
 
-Fonte Manrope servida localmente pelo pacote npm `@fontsource/manrope`, versão fixada no lockfile, sob SIL Open Font License 1.1. Licença em `docs/licenses/Manrope-OFL.txt`. Catálogo: https://fontsource.org/fonts/manrope. Não há chamadas externas às APIs de fontes.
+Fontes Manrope e Sora servidas localmente pelos pacotes npm `@fontsource/manrope` e `@fontsource/sora`, versão fixada no lockfile, sob SIL Open Font License 1.1. Licenças em `docs/licenses/Manrope-OFL.txt` e `docs/licenses/Sora-OFL.txt`. Catálogo: https://fontsource.org/fonts/manrope. Não há chamadas externas às APIs de fontes.
+
+Ícones funcionais: Lucide, licença ISC em `docs/licenses/Lucide-ISC.txt`.
 
 Vite, Playwright e axe-core são ferramentas de desenvolvimento com suas licenças nos respectivos pacotes. README e lockfile permitem reconstruir dependências; node_modules não é parte do pacote de entrega.
 

@@ -8,7 +8,7 @@ Roteiro de facilitação com recuperação explícita de atrasos no início, res
 - Motor de distribuição proporcional com arredondamento determinístico e bloqueio quando inviável.
 - Persistência local, backup/importação JSON validada e CSS de impressão.
 - Cronômetro real por bloco, pausa/retomada, avanço e retomada após recarga.
-- 11 testes de regras; 20 verificações no Chromium. npm ci e build passaram.
+- 11 testes de regras; 23 verificações no Chromium. npm ci e build passaram.
 - Capturas reais desktop, celular e condução em evidence/; revisão independente e correções de falha de armazenamento/overflow.
 - Documentação de uso, pesquisa, testes e demonstração; pacote ZIP sem dependências/caches.
 
@@ -23,3 +23,6 @@ Experimento com cinco facilitadores: comparar o método atual com uma recuperaç
 
 ## Redesign concluído
 Frontend-design (Anthropic) + web-design-guidelines (Vercel); Impeccable removido. Manrope, nova identidade azul, mapa interativo, proteção inline, orientações expansíveis e tela exclusiva de condução. Fluxos e foco/URL validados no Chromium; axe sem violações nos dois estados desktop testados. Fontes da escolha em docs/REDESIGN.md.
+
+## Acabamento concluído
+Logo própria local, ícones Lucide, navegação horizontal, controles e diálogos refinados, foco unificado no campo de atraso, atalhos de duração e modo foco na condução. Evidências atualizadas em 11/11/2026; detalhes em docs/ACABAMENTO.md e docs/MARCA.md.
